@@ -1,0 +1,505 @@
+@media(max-width:1138px){
+.main__magazine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.main__linkInfo-block{
+    display: none;
+}
+.category__sale{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__shop_title{
+    text-align: center;
+}
+.main__category_magazine{
+    margin-left: 20px;
+}
+.main__card__block{
+    display: none;
+}
+.category__new{
+    margin-left: 20px;
+}
+}
+@media (max-width:1059px) {
+    .main__link_info {
+        padding: 10px 19px;
+    }
+}
+@media (max-width:1006px) {
+    .main__stabilizators{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .main__stab_title{
+        text-align: center;
+    }
+    .main__stab_card {
+        padding: 38px 40px 36px 48px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:992px) {
+    .main__magazine_head{
+        margin-bottom: 20px;
+    }
+    .main__category_magazine{
+        display: flex;
+        align-items: center;
+    }
+    .category_sec_img{
+      margin-left: 20px;
+    }
+    .category__info {
+        padding: 9px 169px 103px 33px;
+    }
+    .main__cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .main__card_content {
+        padding: 15px 27px 38px 31px;
+        margin-bottom: 20px;
+    }
+    .main__description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .photo__text {
+        font-size: 13px;
+        padding: 34px 72px 14px 23px;
+    }
+    .footer__block{
+        display: none;
+    }
+    .menu-btn span{
+        margin-left: 30px;
+        display: flex;
+    }
+    .nav__list_link{
+      
+        opacity: 0;
+    }
+    .nav__list_link_active{
+        opacity: 1;
+    }
+    .header__container{
+        align-items: center;
+    }
+    .header__desc_text{
+        text-align: center;
+    }
+    .header__description{
+        display: flex;
+        margin-left: 57px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__list{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 53px;
+    }
+    .nav__list li{
+        margin-bottom: 15px;
+    }
+    .menu-btn_active span {
+        height: 0px;
+    }
+    .nav{
+        padding-top: 30px;
+        align-items: initial;
+    }
+    .main__link_info {
+        padding: 16px 11px;
+    }
+    .photo__img {
+        width: 300px;
+        height: 235px;
+    }
+    .menu__btn_style{
+         padding-top: 40px;
+        position: relative;
+    }
+    
+}
+
+@media(max-width:890px) {
+    .category_sec_img {
+        width: 363px;
+        height: 196px;
+    }
+   
+}
+@media (max-width:779px) {
+    .category_sec_img {
+        width: 303px;
+        height: 163px;
+    }
+    .category__info_absolute {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+        margin-left: 26px;
+    }
+    
+}
+@media (max-width:769px) {
+    .category_sec_img {
+        width: 403px;
+        height: 211px;
+    }
+    .main__category_magazine{
+        margin-left: 0px;
+    }
+    .main__links{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .main__link_info{
+        margin-bottom: 20px;
+    }
+    .main__linkInfo-block{
+        display: flex;
+    }
+    .main__card_content {
+        padding: 15px 9px 38px 28px;
+        margin-bottom: 20px;
+    }
+    .main__category_magazine{
+        flex-direction: column-reverse;
+    }
+    .category_sec_img{
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .category__info {
+        padding: 36px 227px 119px 45px;
+    }
+    .category__sale{
+        flex-direction: column;
+    }
+    .category__sale_descript {
+        background: #B7291B;
+        padding: 31px 15px 86px 61px;
+    }
+    .category__new {
+       margin-left: 0px;
+    }
+    .main__photography-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo__text {
+        text-align: center;
+        width: 507px;
+        padding: 34px 72px 14px 55px;
+     
+    }
+    .footer__block_second{
+        display: none;
+    }
+    .footer__list_link {
+        font-size: 13px;
+        line-height: 7px;
+        margin-bottom: 15px;
+        display: inline-block;
+        font-family: 'Montserrat-Medium';
+        color: #FFFFFF;
+    }
+    .main__link_info{
+        margin-right: 10px;
+    }
+    .main__magazine_text {
+        width: 383px;
+        font-size: 23px;
+        line-height: 131.4%;
+        font-family: 'Montserrat-Bold';
+        color: #FFFCFC;
+        padding-bottom: 30px;
+        padding-left: 22px;
+    }
+    .category_sec_img {
+        width: 383px;
+        height: 177px;
+    }
+}
+@media (max-width:539px) {
+    .photo__text {
+        text-align: center;
+        width: 468px;
+        padding: 31px 42px 14px 44px;
+    }
+}
+@media (max-width:499px) {
+    .main__cardContent-block{
+        display: none;
+    }
+    .main__card_content {
+        padding: 15px 49px 38px 59px;
+        margin-bottom: 20px;
+    }
+    .photo__text {
+        text-align: center;
+        width: 337px;
+        padding: 31px 0px 14px 0px;
+    }
+    .category__info {
+      
+        
+            padding: 36px 206px 50px 34px;
+        
+    }
+    .category__sale_descript {
+        background: #B7291B;
+     margin-bottom: 10px;
+        padding: 31px 15px 53px 58px;
+    }
+    .img__salaryPrice {
+        width: 156px;
+        height: 156px;
+    }
+    .footer__reverse {
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__photo{
+        position: absolute;
+        display: flex;
+        top: 4276px;
+        right: 138px;
+    }
+    .nav__list_link {
+        margin-left: 50px;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Montserrat-Regular';
+        color: #fff;
+    }
+    .menu__btn_style {
+      margin-right: 24px;
+    }
+    .nav__logo_link{
+        margin-left: 0px;
+    }
+    .nav___img_buy{
+        margin-right: 0px;
+    }
+    .category_sec_img {
+        width: 373px;
+        height: 177px;
+    }
+    .main__magazine_text {
+        width: 362px;
+    }
+    .header__description{
+        margin-left: 0px;
+    }
+}
+@media (max-width:464px) {
+    
+    .footer__container{
+        justify-content: space-evenly;
+    }
+    .main__desc_link {
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: 11px;
+        color: #FFFFFF;
+        margin-bottom: 3px;
+        font-family: 'Montserrat-Regular';
+    }
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+       margin-right: 0px;
+    }
+    .photo__text {
+        text-align: center;
+        width: 295px;
+        padding: 31px 0px 14px 0px;
+    }
+    .footer__photo {
+        position: absolute;
+        display: flex;
+        top: 4276px;
+        right: 113px;
+    }
+}
+@media (max-width:399px) {
+    .main__descBlock{
+        display: none;
+    }
+    .main__magazine_text {
+        width: 325px;
+    }
+    .category_sec_img {
+        width: 327px;
+        height: 148px;
+    }
+    .category__info {
+        padding: 29px 168px 26px 34px;
+    }
+    .img__salaryPrice {
+        width: 136px;
+        height: 122px;
+    }
+    .category__sale_descript {
+        padding: 31px 15px 20px 47px;
+    }
+    .main_linkBlock{
+        display: none;
+    }
+    .footer__photo {
+        position: absolute;
+        display: flex;
+        top: 4123px;
+        right: 113px;
+    } 
+     .main_link_stylepx{
+         padding: 14px 33px;
+        background: linear-gradient(98.82deg, #A27A56 -16.4%, #34261D 108.75%);
+}
+}
+@media (max-width:358px) {
+.header__container{
+    justify-content: flex-start;
+}  
+.main__links{
+    position: absolute;
+    top: 398px;
+    left: 28px;
+}
+.footer__photo {
+    position: absolute;
+    display: flex;
+    top: 4055px;
+    right: 113px;
+}
+.footer {
+    padding-bottom: 91px;
+
+}
+.footer__title {
+    font-size: 31px;
+    line-height: 41px;
+    font-family: 'Montserrat-Bold';
+    color: #FFFFFF;
+}
+.photo__text {
+    font-size: 12px;
+    width: 245px;
+}
+.main__magazine_text {
+    width: 238px;
+    margin-bottom: 10px;
+}
+.category_sec_img {
+    width: 292px;
+    height: 129px;  
+}
+.category__info {
+    padding: 19px 149px 13px 13px;
+}
+.category__sale_title {
+    font-size: 21px;
+    line-height: 28px;
+    width: 101px;
+    color: #FFFCFC;
+}
+.category__sale_descript {
+    padding: 31px 15px 9px 47px;
+}
+.img__salaryPrice {
+    width: 122px;
+    height: 111px;
+}
+.categoty__title_new {
+    font-size: 57px;
+    line-height: 78px;
+    font-family: 'Montserrat-Black';
+    color: #FFFCFC;
+    opacity: 0.4;
+    text-align: right;
+  padding-bottom: 0px;
+}
+.category__new {
+    margin-top: 5px;
+    background: #3168BC;
+    padding-top: 9px;
+    padding-left: 22px;
+    padding-bottom: 0px;
+}
+.main__stab_card {
+    padding: 28px 26px 17px 22px;
+    margin-bottom: 20px;
+}
+}
+@media (max-width:360px) {
+    .footer__photo {
+        position: absolute;
+        display: flex;
+        top: 3906px;
+        right: 113px;
+    }
+}
+@media (max-width:344px) {
+    .main__links {
+        position: absolute;
+        top: 417px;
+        left: 28px;
+    }
+    .main {
+        padding-bottom: 69px;
+    }
+    .footer__photo {
+        position: absolute;
+        display: flex;
+        top: 3846px;
+        right: 96px;
+    }
+    .main__link_info {
+        margin-right: 5px;
+    }
+    .main__card_content {
+        padding: 9px 38px 38px 46px;
+        margin-bottom: 20px;
+    }
+    .nav__logo_link{
+        font-size: 30px;
+    }
+    .nav__list_link {
+        margin-left: 12px;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Montserrat-Regular';
+        color: #fff;
+    }
+    .menu__btn_style {
+        margin-right: 73px;
+    }
+}
+@media (max-width:330px) {
+    .photo__text {
+        font-size: 11px;
+        width: 209px;
+        padding: 19px 0px 5px 0px;
+    }
+    .main__links {
+        position: absolute;
+        top: 417px;
+        left: 24px;
+    }
+}
